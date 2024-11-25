@@ -163,6 +163,14 @@ body {
   width: 0%;
 }
 
+.footer-link:hover {
+  color: #cc0000;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+/* Media Queries */
+
 @media (min-width: 768px) {
   .grid {
     grid-template-columns: repeat(3, 1fr);
